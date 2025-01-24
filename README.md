@@ -37,6 +37,8 @@ The system will begin capturing video from your webcam, detect facial landmarks,
 **Troubleshooting**
 
 Webcam Issues: If you encounter issues with video capture, ensure that your webcam drivers are properly installed and recognized by OpenCV.
+
 dlib Installation Issues: If dlib installation fails, make sure you have the necessary C++ build tools. You can find installation instructions here.
 Notes
+
 The **shape_predictor_68_face_landmarks.dat file** is crucial for accurate facial landmark detection. Ensure that it is extracted and available in the working directory or specify its path in the script.
